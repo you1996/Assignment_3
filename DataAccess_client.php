@@ -21,7 +21,7 @@ require_once('lib/nusoap.php');
 			}
 			 try {
 				 // Call the SOAP method
-				$result = $client->call('FullCountryInfo', array('sCountryISOCode' => 'TN'));
+				$result = $client->call('FullCountryInfo', array('sCountryISOCode' => 'TR'));
 				// Display the result
 				echo "<h2>Result<h2/>";
 				//echo"<img src="($result.sCountryFlag)"/>
